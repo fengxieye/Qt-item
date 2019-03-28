@@ -37,7 +37,7 @@ void TcpClient::SetIPAndPort(QString ip,int port)
 
 void TcpClient::StartHeartCheck(int ms, bool isOn)
 {
-    m_bChecked = true;
+    m_bChecked = isOn;
     if(m_bChecked)
     {
         m_timerHeart.start(ms);
