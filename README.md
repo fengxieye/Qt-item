@@ -1,5 +1,5 @@
 ﻿# Qt-item
-Qt的一些简单封装，减少重复工作，GC：General Class
+Qt的一些封装，减少重复工作，GC：General Class
 
 TcpClient  ---------   tcp的客户端
 
