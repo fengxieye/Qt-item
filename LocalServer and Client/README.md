@@ -1,0 +1,8 @@
+对QLocalSocket和QLocalServer的封装，在local文件夹里。在其它项目里使用的，检测后拿来使用，具体细节待使用的时候再修改了。
+
+可以使用CTLProcessCommunication 来创建server和client，这种用法感觉不太好。
+
+也可以分别使用 CTLProcessCommunicationClient CTLProcessCommunicationServer来分别创建。
+
+loacl_server和local_client文件夹是简单的使用。
+
